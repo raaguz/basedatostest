@@ -7,7 +7,7 @@ pv_title_o                     GB_MESSAGES.title%TYPE;
 BEGIN
       --- PASO A ---
       BEGIN
-            vl_nombre_completo:=pv_nombre || ' TEST';
+            vl_nombre_completo:=pv_nombre || ' TEST 2';
 
       EXCEPTION
             WHEN NO_DATA_FOUND THEN
